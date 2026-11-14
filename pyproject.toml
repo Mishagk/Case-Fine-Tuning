@@ -1,0 +1,29 @@
+[project]
+name = "case-fine-tuning"
+version = "0.1.0"
+description = "Learn fine-tuning step by step: SFT, DPO, GRPO, vision, and measuring answers."
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "torch",          # runs the model on the GPU
+    "transformers",   # loads the model
+    "trl",            # the trainers: SFT, DPO, GRPO
+    "peft",           # LoRA (the small trainable add-on)
+    "datasets",       # holds the training examples
+    "pillow",         # draws the pictures (notebook 4)
+    "requests",       # talks to a local Ollama judge (notebook 5)
+    "ipykernel",      # runs the notebooks
+]
+
+[tool.uv]
+# Only accept releases published before this date (protection against new malicious uploads).
+exclude-newer = "2026-10-24T00:00:00Z"
+package = false
+
+# PyTorch with GPU support comes from the official PyTorch site
+[[tool.uv.index]]
+name = "pytorch-cu128"
+url = "https://download.pytorch.org/whl/cu128"
+explicit = true
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu128" }
