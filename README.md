@@ -4,7 +4,7 @@ Learn how four fine-tuning methods work as personal learning and understanding o
 
 IMPORTANT: The main purpose is only personal learning and training in the field of computer vision, not a commercial or industry real purposes.
 
-----
+---
 
 | Notebook | Method | Learns from |
 |---|---|---|
