@@ -1,0 +1,11 @@
+# Python environment (created by "uv sync")
+.venv/
+__pycache__/
+
+# Files created while training
+trainer_output/
+out/
+
+# Notebook and editor files
+.ipynb_checkpoints/
+.vscode/

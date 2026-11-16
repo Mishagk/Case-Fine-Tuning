@@ -12,6 +12,7 @@ dependencies = [
     "pillow",         # draws the pictures (notebook 4)
     "requests",       # talks to a local Ollama judge (notebook 5)
     "ipykernel",      # runs the notebooks
+    "torchvision>=0.26.0",
 ]
 
 [tool.uv]
