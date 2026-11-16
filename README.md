@@ -11,7 +11,7 @@ IMPORTANT: The main purpose is only personal learning and training in the field 
 | `1_sft.ipynb` | SFT (Supervised Fine-Tuning) | 25 requests + correct commands |
 | `2_dpo.ipynb` | DPO (Direct Preference Optimization) | 25 requests + a good and a bad command |
 | `3_grpo.ipynb` | GRPO (Group Relative Policy Optimization) | 25 requests + a score function |
-| `4_vision.ipynb` | Vision SFT | 24 tag pictures + correct commands |
+| `4_vision.ipynb` | Vision SFT | 72 tag pictures + correct commands |
 | `5_measure.ipynb` | Measuring answers | how to score an answer |
 
 ## What is used
